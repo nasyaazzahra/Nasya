@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Lucu</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ffc0cb, #add8e6, #dda0dd);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            color: #4b0082;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 15px;
+            background-color: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 40px;
+            color: #ff69b4;
+        }
+        .profile-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 5px solid #ff69b4;
+        }
+        .button {
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #ff69b4;
+            color: rgb(235, 185, 185);
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        .button:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About me 🌸</h1>
+        <img src="foto me buat coding.jpeg" alt="Foto Profil" class="profile-img">
+        <p>⋆.˚✮🎧✮˚.⋆</p>
+        <button onclick="window.location.href='karyaku.htm';"button">click me!</button>
+    </div>
+</body>
+</html>
